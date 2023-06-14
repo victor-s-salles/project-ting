@@ -13,5 +13,5 @@ def txt_importer(path_file):
         return []
 
     except ValueError:
-        print(f"Formato inválido", file=sys.stderr)
+        print("Formato inválido", file=sys.stderr)
         return []
